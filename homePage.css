@@ -1,0 +1,113 @@
+/*Layout botao*/
+.botao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 12px 30px;
+	background: -moz-linear-gradient(
+		top,
+		#ff2819 0%,
+		#ab0000);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ff2819),
+		to(#ab0000));
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	border: 0px solid #7d0000;
+	-moz-box-shadow:
+		0px 0px 4px rgba(000,000,000,1),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 0px 4px rgba(000,000,000,1),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 0px 4px rgba(000,000,000,1),
+		inset 0px 0px 2px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.centro{
+    text-align: center;
+}
+
+.esquerda{
+    text-align: left;
+}
+.direita{
+    text-align: right;
+}
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+  body {
+    margin: 0;
+  }
+  /* Container da barra de navegação */
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(179, 55, 55);
+  }
+  
+  /* links da barra de navegação */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  /* trocar a cor quando passar o mouse */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  .column {
+    float: left;
+  }
+  
+ 
+  /* Middle column */
+  .column.main {
+    width: 100%;
+   
+    
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
