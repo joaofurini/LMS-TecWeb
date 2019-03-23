@@ -3,30 +3,103 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>FaculdadeImpax</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="homePage.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="homePage.css" >
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  
     <script src="main.js"></script>
 </head>
 <body>
 
     <div class="header">
-        <h1 center>FACULDADE IMPACTA</h1>
+        <h1 center>FACULDADE IMPAX</h1>
     </div>
-
     <div class="topnav">    
+       <a class="topnav a:hover" href="./index.html">Home</a>
       <a class="topnav a:hover" href="./lista de cursos/listaDeCursos.html">Lista de cursos</a>
-      <a class="topnav a:hover">Contato</a>
-      <a class="topnav a:hover">Sobre nos</a>
+      <a class="topnav a:hover" href="./contato/contato.html">Contato</a>
+      <a class="topnav a:hover">Sobre nós</a>
     </div>
 
     <hr>
     
     <div class="colunm.main">
         <div class="typewriter">
-                <h1 class="centro">BEM VINDOS A NOSSA FACULDADE</h1>             
+              <h1 class="centro">BEM VINDOS A NOSSA FACULDADE</h1>             
         </div>   
     </div>
-   
+    <br>
+    <div id="content-slider">
+            <div class="wrap-slider">	
+    
+              <!-- ===== Controle da navegação ======= -->			
+              <input type="radio" id="a-1" name="a" >			
+              <input type="radio" id="a-2" name="a" >			
+              <input type="radio" id="a-3" name="a" >
+             
+              <nav id="main">
+                <label for="a-1" class="first"></label>
+                <label for="a-2" class="first"></label>
+                <label for="a-3" class="first"></label>
+                
+              </nav>
+          
+              <!-- =================================== -->	
+              <nav id="control">
+                <label for="a-1"></label>
+                <label for="a-2"></label>
+                <label for="a-3"></label>
+                
+              </nav>
+              <!-- =================================== -->
+              <!-- ===== IMages ======= -->							
+          
+              <div class="slider">
+                <div class="inset">
+
+                  <figure>
+                    <figcaption class="title-1">
+                      <h1>Faculdade Impax</h1>
+                      <p>A melhor de São Paulo</p>
+                      <a href="">Se inscreva</a>
+                    </figcaption>
+                    <img src="https://cdn.pixabay.com/photo/2014/07/30/23/00/trinity-college-405783_960_720.jpg" alt="" id="i-1"class="f">						
+                  </figure>
+          
+                  <figure>
+                    <figcaption class="title-2">
+                      <h1>Promoções imperdiveis</h1>
+                      <p>Faça seu orçamento</p>
+                      <a href="">Fazer Orçamento</a>
+                    </figcaption>
+                    <img src="./FaculdadeDentro.png" alt="" id="i-2" class="f">						
+                  </figure>
+          
+                  <figure>
+                    <figcaption class="title-3">
+                      <h1>Os melhores cursos</h1> 
+                      <p>Diversos cursos pra todo mundo</p> 
+                      <a href="./lista de cursos/listaDeCursos.html">Ver os Cursos</a>
+                    </figcaption>
+                    <img src="./Dicas-de-como-organizar-os-estudos.png" alt="" id="i-3" class="f">						
+                  </figure>
+                </div>
+              </div>					
+            </div>		
+          </div>
+          <br>
+
+          <div class="footer">
+            <p class="letraBranca">Paginas do site</p>
+            <hr>
+              <a href="index.html">HomePage </a><br>
+              <a href="lista de cursos/listaDeCursos.html">Lista de Cursos</a><br>
+              <a href="index.html">Pagina 3</a><br>
+            <hr>
+            <p class="letraBranca">Todos os direitos reservados</p>
+          </div>
 </body>
 </html>
