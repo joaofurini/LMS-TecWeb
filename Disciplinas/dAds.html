@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+      .collapsible {
+	background-color: rgb(250, 250, 250);
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: rgb(247, 245, 245);
+  }
+  
+  .content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+  }
+
+        </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Disciplinas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../homePage.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./disciplinas.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <script src="disciplinas.js"></script>
+</head>
+<body>
+        <div class="header">
+                <h1 center>DISCIPLINAS</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="#">IMPAX</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../lista de cursos/listadecursos.html">Lista de Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contato/contato.html">Contato</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../sobre/sobre.html">Sobre nós</a>
+                      </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Area do aluno</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Area do Professor</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            <hr>
+            
+    
+  
+    
+<!-- FAQ -->
+
+         <nav class="accordion arrows">
+            <header class="box">
+                <label for="acc-close" class="box-title">Disciplinas Analise e Desenvolvimento de Sistemas</label>
+            </header>
+            <button class="collapsible">Semestre 1:</button>
+            <div class="content">
+                <input type="radio" name="accordion" id="cb1" />
+                <section class="box">
+                   <label class="box-title" for="cb1">Comunicação e Expressão (EAD): 80 horas</label>
+                   <label class="box-close" for="acc-close"></label>
+                   <div class="box-content">A fluência na língua materna possibilita a plena compreensão dos textos indicados e a 
+                     excelência na produção cientifica. Aplicação prática da expressividade ao falar em público, com 
+                     direcionamento acadêmico e empresarial. Desenvolvimento de textos corporativos e 
+                     científicos. Leitura crítica e interpretativa. Elaboração de textos, permeados pela clareza, 
+                     intencionalidade, coesão e coerência. Orientação para emprego da ABNT em produções 
+                     científicas.                     
+                    </div>
+                </section>
+
+                <input type="radio" name="accordion" id="cb2" />
+                <section class="box">
+                   <label class="box-title" for="cb2">Fundamentos de Banco de Dados: 80 horas</label>
+                   <label class="box-close" for="acc-close"></label>
+                   <div class="box-content">Introdução aos Sistemas Gerenciadores de Banco de Dados. Projeto de Banco de Dados. Projeto 
+                     Conceitual de Banco de Dados: Modelo Entidade Relacionamento: UML: Uso de Diagramas de 
+                     Classes da UML para representar as Abstrações de Generalização, Agregação e Composição. 
+                     Projeto Lógico de Banco de Dados: Modelo Relacional; Normalização.                     
+                      </div>                      
+                </section>
+
+                <input type="radio" name="accordion" id="cb3" />
+                <section class="box">
+                   <label class="box-title" for="cb3">Introdução a Internet das Coisas - IOT: 80 horas</label>
+                   <label class="box-close" for="acc-close"></label>
+                   <div class="box-content">Introdução à computação ubíqua. Desenvolvimento de soluções IoT. Tipos de transdutores, 
+                     sensores e atuadores. Componentes básicos do computador e dispositivos de Internet das 
+                     coisas (Arduino). Funcionalidades dos subsistemas de memória, unidade central de 
+                     processamento, barramentos e sistema de entrada/saída. Processos, sistemas de arquivos e drivers.                                          
+                     </div>                      
+                </section>
+
+                <input type="radio" name="accordion" id="cb4" />
+                <section class="box">
+                   <label class="box-title" for="cb4">Linguaguem de Programação I: 80 horas</label>
+                   <label class="box-close" for="acc-close"></label>
+                   <div class="box-content">Introdução e Conceitos de Programação e Linguagem de Programação. Linguagem de 
+                     Programação Python. Tipos de Dados. Estruturas lógicas ou de controle de fluxo. 
+                     Modularização. Métodos. Classes. Desenvolvimento de projeto IoT.                               
+                      </div>                      
+                 </section>
+
+                 <input type="radio" name="accordion" id="cb5" />
+                 <section class="box">
+                    <label class="box-title" for="cb5">Lógica de Programação: 80 horas</label>
+                    <label class="box-close" for="acc-close"></label>
+                    <div class="box-content">Fundamentos: Relações, Funções e Matrizes. Lógica Formal: Proposições, representações 
+                     simbólicas; Lógica proposicional; Quantificadores, Predicados e Validade; Lógica de Predicados. 
+                     Conjuntos, Combinatória e Probabilidade: Teoria de Conjuntos; Contagem, Permutações e 
+                     Combinações. Estatística Descritiva: Distribuição de frequência, histograma; Medidas de 
+                     tendência central: Média, mediana e moda; Medidas de Dispersão: desvio padrão, variância.
+                     </div>                       
+                  </section>
+
+                  <input type="radio" name="accordion" id="cb6" />
+                  <section class="box">
+                     <label class="box-title" for="cb6">Matemática Aplicada: 80 horas</label>
+                     <label class="box-close" for="acc-close"></label>
+                     <div class="box-content">Análise propositiva da estrutura de enunciados, a partir do 
+                        instrumental da lógica formal e da lógica informal, para conhecimento 
+                        e descrição das regras elementares do discurso. Aprofundamento
+                         reflexivo e crítico voltado para dilemas e questões éticas que envolvam 
+                        o vínculo prático do âmbito institucional e da convivência humana 
+                        em geral. Discussão em classe e leitura de obras dedicadas à problematização
+                         ética do indivíduo e da sociedade, tendo em vista noções clássicas de justo
+                         e injusto, bem e mal, certo e errado, bem como a de seus desdobramentos
+                         contemporâneos (códigos de ética e de conduta, responsabilidade social, 
+                        sustentabilidade).                                           
+                        </div>                        
+                   </section>                   
+             </div>
+
+        
+             <button class="collapsible">Semestre 2:</button>
+             <div class="content">
+                 <input type="radio" name="accordion" id="cb7" />
+                 <section class="box">
+                    <label class="box-title" for="cb7">Ambiente de Desenvolvimento e Operação -DevOps: 80 horas</label>
+                    <label class="box-close" for="acc-close"></label>
+                    <div class="box-content">Gerenciamento e Configuração de Mudanças. Instalação e configuração de ambientes 
+                     operacionais e ferramentas em máquinas virtuais, local e em nuvem: Sistema Operacional, 
+                     Compilador / Interpretador, Ambientes de Testes de Unidade. Git / GitHub, Servidor de 
+                     Aplicação e wikis. Utilizando os ambientes criados para a especificação e codificação da OPE.                     
+                   </div>
+                 </section>
+
+                 <input type="radio" name="accordion" id="cb8" />
+                 <section class="box">
+                    <label class="box-title" for="cb8">Libras: 40 horas</label>
+                    <label class="box-close" for="acc-close"></label>
+                    <div class="box-content">Aquisição de uma nova língua: Língua Brasileira de Sinais (LIBRAS).
+                        Oferecer o conceito de Libras, Fundamentos históricos 
+                        da educação de surdos. Legislação específica. Aspectos 
+                        Linguísticos da Libras. Compreender os principais aspectos 
+                        da Língua Brasileira de Sinais – Libras, língua oficial da comunidade
+                         surda brasileira, contribuindo para a inclusão educacional dos alunos
+                         surdos.
+                        </div>                       
+                 </section>
+
+                 <input type="radio" name="accordion" id="cb9" />
+                 <section class="box">
+                    <label class="box-title" for="cb9">Engenharia de Software: 80 horas</label>
+                    <label class="box-close" for="acc-close"></label>
+                    <div class="box-content">Conceitos fundamentais da Engenharia de Software. Abordagens de Análise de Software. 
+                     Processos de Software. Disciplinas do curso e perfil profissional. Definição das OPEs. Checklists 
+                     da Engenharia de Requisitos. Técnicas: Entrevista, Questionário, Comitê de Especialistas, Análise 
+                     de Problemas, Workshop de Características, Baseline de Características e a Técnica de Reunião Formal: Walkthroughs.
+                     
+                      </div>                       
+                 </section>
+
+                 <input type="radio" name="accordion" id="cb10" />
+                 <section class="box">
+                    <label class="box-title" for="cb10">Gestão de Projetos: 40 horas</label>
+                    <label class="box-close" for="acc-close"></label>
+                    <div class="box-content">Introdução à gestão tradicional de projetos. PMI. PMI. Agile Mindset. Manifesto Ágil. Gestão 
+                     Ágil de Projetos (SCRUM): Gerência de time autogerenciável e os papéis. Time-boxes. Sprint. 
+                     Planning meeting. Review meeting. feedback. Retrospectiva e daily scrum. Scrum Master. Práticas Scrum.
+                     </div>                       
+                  </section>
+
+                  <input type="radio" name="accordion" id="cb11" />
+                  <section class="box">
+                     <label class="box-title" for="cb11">Linguagem SQL: 80 horas</label>
+                     <label class="box-close" for="acc-close"></label>
+                     <div class="box-content">Introdução à Linguagem SQL. Conceitos Básicos. Linguagem de Definição de Dados. Linguagem 
+                        de Manipulação de Dados. Função e Procedimentos. Declaração de variável. Expressões. 
+                        Instruções Básicas. Estruturas de Controle. Recursos Avançados. Gatilhos (Triggers). Índices e Métodos de busca.
+                       </div>                        
+                   </section>
+
+                   <input type="radio" name="accordion" id="cb12" />
+                   <section class="box">
+                      <label class="box-title" for="cb12">Linguaguem de Programação II: 80 horas</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content">Aplicação de listas e dicionários. Projetos de desenvolvimento de soluções. Programação 
+                        orientada a objetos. Arquivos e estratégias de persistência de dados. Padrões de projeto. Testes unitários automatizados.
+                       </div>                         
+                    </section>
+                  <input type="radio" name="accordion" id="cb13" />
+                  <section class="box">
+                     <label class="box-title" for="cb13">Sociedade e Sustentabilidade: 40 horas</label>
+                     <label class="box-close" for="acc-close"></label>
+                     <div class="box-content">OIdentificar o papel do administrador de empresa no século XXI, considerando  a fundamentação 
+                        teórica, sob uma ótica de desenvolvimento sustentável, vislumbrando Organizações em 
+                        equilíbrio Econômico-financeiro e que respeitem a sociedade e o meio ambiente. Desenvolver 
+                        competências, para compreender o mundo a seu redor e propor alternativas menos danosas ao 
+                        meio ambiente e a sociedade, sempre com a premissa da saúde financeira da Organização, bem 
+                        como, de oportunidade de negócios.
+                     </div>
+                  </section>
+                  <input type="radio" name="accordion" id="cb14" />
+                  <section class="box">
+                     <label class="box-title" for="cb14">Tecnologia Web: 80 horas</label>
+                     <label class="box-close" for="acc-close"></label>
+                     <div class="box-content">Conceitos e fundamentos: Internet, Intranet e Extranet. Arquitetura Cliente-Servidor. 
+                        Desenvolvimento de aplicações WEB Padrões Web. HTML (HyperText Markup Language) e CSS 
+                        ( Cascading Style Sheets). Sintaxe, comandos JavaScript e integração com HTML. Noções de 
+                        NodeJS. Python e Framework de Desenvolvimento.  Arquitetura Model-View-Controller; a 
+                        camada de acesso a banco de dados; Padrão de endereçamento http; aspetos de segurança, 
+                        componentização JQuery + AJAX.                                               
+                        </div>                        
+                  </section>
+               </div>
+
+               <button class="collapsible">Semestre 3:</button> 
+               <div class="content">                  
+                  <input type="radio" name="accordion" id="cb15" />
+                  <section class="box">
+                     <label class="box-title" for="cb15">Análise e Modelagem de Sistemas: 80 horas</label>
+                     <label class="box-close" for="acc-close"></label>
+                     <div class="box-content">Introdução à Análise e Modelagem de Sistemas. Requisitos e Análise de Requisitos. Modelagem 
+                        de Casos de Uso. Técnica para escrever casos de uso. Detalhamento de casos de uso. Uso 
+                        correto de Includes / Extends e Especialização/Generalização. Documento SRS (Software 
+                        Requirements Specifications). Elaboração da SRS do Projeto de OPE – Oficina de Projeto de Empresa.
+                      </div>                        
+                  </section>
+
+                  <input type="radio" name="accordion" id="cb16" />
+                  <section class="box">
+                     <label class="box-title" for="cb16">Desenvolvimento de Aplicações Distribuídas: 80 horas</label>
+                     <label class="box-close" for="acc-close"></label>
+                     <div class="box-content">Arquitetura Orientada a Serviços e Web Service; Padrões, protocolos e especificações; 
+                        Frameworks e API's para o desenvolvimento de Web Services; Desenvolvimento de Web 
+                        Services; Modelo de segurança; SOA, RESTFul Web Services e OAuth. Práticas: Definição de 
+                        arquitetura orientada a serviços envolvendo aplicações web, IoT e Móvel; Implementação 
+                        usando o WCF (Windows Communication Foundation).                        
+                        </div>                        
+                   </section>
+
+                   <input type="radio" name="accordion" id="cb17" />
+                   <section class="box">
+                      <label class="box-title" for="cb17">Estrutura de Dados: 80 horas</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content">Tipo de dado e Tipos abstratos de dados. Recursividade com revisão de listas lineares; Arrays 
+                        associativos. Métodos de busca e ordenação. Lista, pilha e fila. Tabelas de Espalhamento. 
+                        Dicionários e Conjuntos. Árvores. Grafo. Desenvolvimento de um projeto de aplicação.
+                        </div>                         
+                    </section>
+
+                    <input type="radio" name="accordion" id="cb18" />
+                    <section class="box">
+                       <label class="box-title" for="cb18">Interface Homem-Computador: 40 horas</label>
+                       <label class="box-close" for="acc-close"></label>
+                       <div class="box-content">Fatores Humanos de Interação, Teorias, princípios e diretrizes. Teste de usabilidade. Gestão de 
+                        processos de design. Prototipação de interfaces. Metodologia para desenvolvimento de interfaces usáveis.
+                        </div>
+                     </section>
+                     <input type="radio" name="accordion" id="cb19" />
+                     <section class="box">                        
+                        <label class="box-title" for="cb19">Modelagem de Processos de Negócios: 80 horas</label>
+                        <label class="box-close" for="acc-close"></label>
+                        <div class="box-content">Preparar o profissional para ter a visão estratégica do negócio, preparando-o desta forma,  para 
+                             intervir na organização por meio das ações próprias do analista, tais como, formatar, definir o 
+                             design da estrutura organizacional e racionalização de processos. Demonstrar as ferramentas 
+                             para a  produtividade: fluxograma, organogramas, funcionograma, “layout – arranjo físico. 
+                             </div>
+                     </section>
+  
+                     <input type="radio" name="accordion" id="cb20" />
+                     <section class="box">
+                        <label class="box-title" for="cb20">OPE1 - Oficina de Projeto Empresa 1: 80 horas</label>
+                        <label class="box-close" for="acc-close"></label>
+                        <div class="box-content">Contextualização e definição de estratégia, ambiente interno externo das 
+                            organizações. As escolas e as tipologias de estratégia. Etapas para a formulação, 
+                            implementação e acompanhamento das estratégias e visão sistêmica da organização.
+                             Analise do papel estratégico do desenho organizacional  e seu contexto competitivo 
+                            com  o foco na dinâmica da mudança organizacional.
+                            </div>                         
+                     </section>
+               </div>
+
+               <button class="collapsible">Semestre 4:</button>
+               <div class="content">
+                   <input type="radio" name="accordion" id="cb21" />
+                   <section class="box">
+                      <label class="box-title" for="cb21"> Arquitetura e Projeto de Sistemas : 80 horas</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content">Desenvolvimento da arquitetura de sistemas de software de forma ágil. Padrões de 
+                           Comunicação, Serviço e Persistência de Dados. QFD para avaliar a qualidade da arquitetura. 
+                           Apoio às equipes das OPEs no desenvolvimento e implantação de seus sistemas.                           
+                        </div>                         
+                   </section>
+
+                   <input type="radio" name="accordion" id="cb22" />
+                   <section class="box">
+                      <label class="box-title" for="cb22"> Desenvolvimento para Dispositivos Móveis: 80 horas</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content">Conceitos fundamentais de desenvolvimento Mobile. Aplicativos móveis e tecnologias (XDK, 
+                           HTML, CSS, JavaScript e frameworks). HTML, CSS e Javascript. Ambiente de desenvolvimento: 
+                           XDK. Frameworks e ferramentas. Material Design e Angular. Consumo de Web Services e APIs. 
+                           Utilização de recursos do dispositivo. Mapas e localização. Repositório de dados: SQLite e Local 
+                           Storage. Notificações. Desenvolvimento de projeto.                           
+                         </div>
+                    </section>
+
+                   <input type="radio" name="accordion" id="cb23" />
+                   <section class="box">
+                       <label class="box-title" for="cb23">Desenvolvimento para Internet das Coisas - IOT: 80 horas</label>
+                       <label class="box-close" for="acc-close"></label>
+                       <div class="box-content">Kit comercial para desenvolvimento IoT. Laboratórios de Construção de Módulos. 
+                          Desenvolvimento de projeto.
+                        </div>
+                      </section>
+
+                         
+
+                        <input type="radio" name="accordion" id="cb24" />
+                        <section class="box">
+                           <label class="box-title" for="cb24">OPE 2 - Oficina Projeto de Empesa 2 : 80 horas</label>
+                           <label class="box-close" for="acc-close"></label>
+                           <div class="box-content">MVP (Minimum Viable Product). Modelagem de negócio e de análise e modelagem de sistemas 
+                                 envolvendo clientes reais. Desenvolvimento da arquitetura lógica do sistema. Utilização do 
+                                 ambiente DevOps. Especificação técnica do sistema (monografia da OPE).                                                                                                                   
+                              </div>
+                        </section>
+      
+                        <input type="radio" name="accordion" id="cb25" />
+                        <section class="box">
+                           <label class="box-title" for="cb25"> Qualidade de Software: 80 horas</label>
+                           <label class="box-close" for="acc-close"></label>
+                           <div class="box-content">Introdução à Qualidade de Software. Qualidade de Produto x Processo. Padrões da Qualidade: 
+                                 Norma ISO 9126. Gerência da Qualidade. Melhorias de Processo: Modelos de Maturidade: 
+                                 CMMI; MR MPs; ISO 15504. Testes de Software: Verificação x Validação: Teste, Inspeção, 
+                                 Revisão. Fases da Atividade de Teste. Teste Funcional, Teste Estrutural, Geração de Dados de 
+                                 Teste. Estrutura dos artefatos de Testes. Automação de Testes. Práticas de Teste de Software: 
+                                 Teste de Caixa Branca; Teste de Caixa Preta; Testes Automatizados; TDD (Test-Driven Development).
+                              </div>                        
+                        </section> 
+                     </div>
+            
+                    
+                    
+              <input type="radio" name="accordion" id="acc-close" />
+        </nav>
+        <br>
+        <h1 class="centralizado">E ai, gostou de algum dos nossos cursos?</h1>
+        <h1 class="centralizado">Não perca tempo, faça sua matricula</h1>
+        <div class="centralizado">
+                <a class="btn btn-outline-primary btn-lg">Faça sua matricula</a>
+                <br>
+                <br>
+
+        </div>
+      
+            
+            
+      <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+      </script>
+
+    
+    <div class="footer">
+            <p class="letraBranca">Paginas do site</p>
+            <hr>
+              <a href="../index.html">HomePage </a><br>
+              <a href="./listaDeCursos.html">Lista de Cursos</a><br>
+              <a href="../sobre/sobre.html">Sobre</a><br>
+              <a href="../contato/contato.html">Contato</a><br>
+            <hr>
+            <p class="letraBranca">Todos os direitos reservados</p>
+          </div>
+</body>
+</html>

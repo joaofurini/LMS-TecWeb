@@ -1,21 +1,12 @@
-$(".open").click( function () {
-    var container = $(this).parents(".topic");
-    var answer = container.find(".answer");
-    var trigger = container.find(".faq-t");
-    
-    answer.slideToggle(200);
-    
-    if (trigger.hasClass("faq-o")) {
-      trigger.removeClass("faq-o");
-    }
-    else {
-      trigger.addClass("faq-o");
-    }
-    
-    if (container.hasClass("expanded")) {
-      container.removeClass("expanded");
-    }
-    else {
-      container.addClass("expanded");
-    }
-  });
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-black", "w3-red");
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-red", "w3-black");
+  }
+}
