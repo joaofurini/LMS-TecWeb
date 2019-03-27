@@ -95,8 +95,8 @@ input:checked + section.box .box-title:before {
 	transform: rotate(90deg);
 }
 .collapsible {
-	background-color: #777;
-	color: white;
+	background-color: rgb(255, 255, 255);
+	color: rgb(2, 2, 2);
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
@@ -107,12 +107,12 @@ input:checked + section.box .box-title:before {
   }
   
   .active, .collapsible:hover {
-	background-color: #555;
+	background-color: rgb(255, 255, 255);
   }
   
   .content {
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
-	background-color: #f1f1f1;
+	background-color: #fffefe;
   }
