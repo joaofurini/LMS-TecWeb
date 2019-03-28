@@ -107,7 +107,7 @@ input:checked + section.box .box-title:before {
   }
   
   .active, .collapsible:hover {
-	background-color: rgb(95, 178, 195)
+	background-color: rgb(255, 255, 255);
   }
   
   .content {
