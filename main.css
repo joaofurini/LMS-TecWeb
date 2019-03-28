@@ -33,19 +33,3 @@
 		0px 1px 0px rgba(255,255,255,0.3);
 }
 
-a:link {
-	color: red;
-  }  
- 
-  a:visited {
-	color: green;
-  }
-  
-  a:hover {
-	color: hotpink;
-  }
-    
-  a:active {
-	color: blue;
-  }
-
